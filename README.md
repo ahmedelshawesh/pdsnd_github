@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+30-Oct-2019
 
 ### Project Title
-Replace the Project Title
+Git Commands Project
 
 ### Description
-Describe what your project is about and what it does
+My Project is to clone an exsiting repos and clone it locally, then use git to commit changes and push it to the remote.
 
 ### Files used
-Include the files used
+I am using the files from my last python project.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credits go to Udacity and their excellent team, who help me to reach this point.
 
