@@ -31,11 +31,11 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data in an interactive way!')
 
     while True:
-       city = input('Choose a city to explore (chicago, new york or washington? \n> ').lower()
+       city = input('Choose a city to explore like (chicago, new york or washington? \n> ').lower()
        if city in CITIES:
            break
     while True:      
-       month = input('Please provide a month name like (e.eg. january, february, ... , june) or \"all" for all months data \n> ').lower()
+       month = input('Please provide a month name like the following (e.eg. january, february, ... , june) or \"all" for all months data \n> ').lower()
        if month in MONTHS:
            break
     while True:    
@@ -98,7 +98,7 @@ def time_stats(df):
 def station_stats(df):
     """Displays statistics on the most popular stations and trip."""
 
-    print('\nCalculating The Most Popular Stations and Trip...\n')
+    print('\nWait Calculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
 
     # Displaying most commonly used start station
@@ -114,7 +114,7 @@ def station_stats(df):
     print("The most commonly used start station and end station : {}, {}"\
             .format(most_common_start_end_station[0], most_common_start_end_station[1]))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nNOTE: This took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
 
