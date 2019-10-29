@@ -1,7 +1,7 @@
-# Loading Time
+# First for Loading Time
 import time
 
-# Loading Pandas
+# Second for Loading Pandas
 import pandas as pd
 
 # Defining Data Files
@@ -9,13 +9,13 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
-# Defining Cities
+# Defining Cities Names
 CITIES = ['chicago', 'new york', 'washington']
 
-# Defining Months
+# Defining Months Names
 MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
 
-# Defining Days
+# Defining Days Names
 DAYS = ['sunday', 'monday', 'tuesday', 'wednesday', \
         'thursday', 'friday', 'saturday', 'all' ]
 
