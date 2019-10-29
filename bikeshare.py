@@ -21,12 +21,12 @@ DAYS = ['sunday', 'monday', 'tuesday', 'wednesday', \
 
 def get_filters():
     """
-    Asks user to specify a city, month, and day to analyze.
+    Asks user to choose a city, month, and day to analyze.
 
     Returns:
-        (str) city - name of the city to analyze
-        (str) month - name of the month to filter by, or "all" to apply no month filter
-        (str) day - name of the day of week to filter by, or "all" to apply no day filter
+        (str) city - is the name of the city to analyze
+        (str) month - is the name of the month to filter by, or "all" to apply no month filter
+        (str) day - is the name name of the day of week to filter by, or "all" to apply no day filter
     """
     print('Hello! Let\'s explore some US bikeshare data in an interactive way!')
 
@@ -96,7 +96,7 @@ def time_stats(df):
 
 
 def station_stats(df):
-    """Displays statistics on the most popular stations and trip."""
+    """ will Display statistics on the most popular stations and trip by showing the most common start stationa & most common end stations."""
 
     print('\nWait Calculating The Most Popular Stations and Trip...\n')
     start_time = time.time()
