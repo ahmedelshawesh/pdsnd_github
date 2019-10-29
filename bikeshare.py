@@ -196,7 +196,7 @@ def display_five(df):
     end = 5
     valid_input = False
     while valid_input == False:
-        display = input('\nWould you like to view row data? enter "yes" or "no" \n')
+        display = input('\nWould you like to view row data in this screen? enter "yes" or "no" \n')
         valid_input = is_valid(display)
         if valid_input == True:
             break
@@ -209,7 +209,7 @@ def display_five(df):
         while display_more.lower() != 'no':
             valid_input_2 = False
             while valid_input_2 == False:
-                display_more = input('\nWould you like to view more raw data? enter "yes" or "no".\n')
+                display_more = input('\nWould you like to view more raw data in this screen? enter "yes" or "no".\n')
                 valid_input_2 = is_valid(display_more)
                 if valid_input_2 == True:
                     break
@@ -232,7 +232,7 @@ def main():
         user_stats(df)
         display_five(df)
         
-        restart = input('\n would you like to restart? enter "yes" or any other word to close.\n').lower()
+        restart = input('\n would you like to restart the process from the beggining? enter "yes" or any other word to close.\n').lower()
         if restart.lower() != 'yes':
             break
 
